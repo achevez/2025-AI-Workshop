@@ -1,0 +1,26 @@
+{
+  "name": "ai-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",
+    "cypress:api": "cypress run --spec 'cypress/api/**/*.cy.js'"
+  },
+  "keywords": [
+    "AI",
+    "testing",
+    "Cypress"
+  ],
+  "author": "Ana Chevez",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^14.2.1",
+    "dotenv": "^16.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "webpack": "^5.99.8"
+  }
+}
