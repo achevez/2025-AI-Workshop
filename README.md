@@ -55,8 +55,8 @@ Page objects are located in the `cypress/page-objects/` directory.
 
 ### Writing New Tests
 
-1. For UI tests, create a new spec file in `cypress/e2e/`
-2. For API tests, create a new spec file in `cypress/api/`
+1. For UI tests, create a new spec file in `cypress/e2e/ui`
+2. For API tests, create a new spec file in `cypress/e2e/api/`
 3. Create corresponding page objects if needed
 4. Add test data to the `cypress/fixtures/` directory
 
